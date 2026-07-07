@@ -385,6 +385,10 @@ export default function Home() {
                 <div><span>계정 생성 보너스</span><strong>{accountCreated ? "50P 지급" : "대기"}</strong></div>
                 <div><span>리포트 공개</span><strong>알림 예정</strong></div>
               </div>
+              <div className="notice-line">
+                브레인타입은 두뇌 강점 탐색과 함께 인지 건강 모니터링을 지원해요.
+                결과 공개 시 평가자는 비식별 요약만 확인할 수 있습니다.
+              </div>
               <button className="secondary-button full" onClick={() => setAccountCreated(true)}>
                 <span aria-hidden="true">+</span>
                 평가자 계정 만들고 50P 받기
